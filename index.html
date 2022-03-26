@@ -1,0 +1,71 @@
+<!-- 
+    Ryan Leiteritz
+    CPSC-200
+    Sprint 5
+    Due: 3/27/22
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project Proposal</title>
+    <link rel="stylesheet" href="final-proposal.css">
+    </head>
+
+<body>
+<div>
+<header>ezMP3
+<p>Members: Ryan Leiteritz</p>
+</header>
+
+<h1>Application Overview</h1>
+<p class="Section">ezMP3 will be a program where users can quickly convert and download an online video link
+    in .mp3 format. It is useful for archiving and backing up vulnerable sounds posted to video 
+    sharing sites (ie. YouTube).
+</p>
+
+<h1>Technology Overview</h1>
+<p class="Section">This program will be written in Python 3. A few libraries that ezMP3 may utilize are 
+    PyTube and youtube-dl. The goal for this program is durability. Since website APIs periodically change,
+    ezMP3 will be written with resilience in mind. Due to a grey-area in legality, this program WILL NOT be
+    hosted online in any public capacity. It will function as a standalone Python script that can be run
+    on any operating system so long as Python 3 is installed. Any demo of ezMP3 presented by the creator
+    will only be done so using videos he retains 100% exclusive copyright on.
+</p>
+
+<h1>Feature List</h1>
+<ul class="Section">
+    <li>Easy to use CLI</li>
+    <li>Custom download location</li>
+    <li>Produces 'true' .mp3 files, NOT AAC files with .mp3 tag. Files will be compatible with any program that supports .mp3 format.
+    </li>
+    <li>Queue multiple downloads at once.</li>
+</ul>
+
+<h1>Future Feature List</h1>
+<ul class="Section">
+    <li>Support for more websites.</li>
+    <li>Option to directly download file as original .mp4.</li>
+    <li>Custom filename format.</li>
+</ul>
+
+<h1>Basic Technical Features</h1>
+<ul class="Section">
+    <li>Command line interface</li>
+    <li>Processes a user's input to complete a task.</li>
+    <li>Extremely lightweight -- small application around 1 MB in size. </li>
+</ul>
+
+<h1>Advanced Technical Features</h1>
+<ul class="Section">
+    <li>Utilization of Python libraries.</li>
+    <li>Scans website API for .mp4 files within a given URL. (Basic Web scraping)</li>
+    <li>Removes/splits video from the .mp4 file.</li>
+    <li>Compresses remaining audio using MPEG Layer III Audio Encoding (MP3).</li>
+</ul>
+
+<footer>Proposal Last Updated 03/26/22.</footer>
+</div>
+</body>
